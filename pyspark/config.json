@@ -1,0 +1,5 @@
+{
+  "logger_config": {
+    "path": "c:/pyspark"
+  }
+}

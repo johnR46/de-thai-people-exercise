@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "thai-people-exercise"
+version = "0.1.0"
+description = ""
+authors = ["JohnR46 <machine.The@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+requests = "^2.31.0"
+pyspark = "^3.5.1"
+tabulate = "^0.9.0"
+apache-airflow = "^2.9.0"
+apache-airflow-providers-apache-spark = "4.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
